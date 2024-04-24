@@ -24,9 +24,12 @@ main{
 
 .c-atom {
     position: relative;
+    left: 50%;
     width: var(--atomSize);
     height: var(--atomSize);
+    transform: translateX(-50%);
     display: block;
+    top: 30%;
 }
 .c-atom__nucleus, .c-atom__orbit, .c-atom__electron, .c-atom__orbitTrain, .c-atom__electronTrain {
     position: absolute;
